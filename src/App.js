@@ -1,4 +1,4 @@
-import { useState } from "react/cjs/react.development";
+import react, { useState } from "react/cjs/react.development";
 import Alert from "./components/Alert";
 import Navbar from "./components/Navbar";
 import TextForm from "./components/TextForm";
