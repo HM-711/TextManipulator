@@ -64,7 +64,7 @@ export default function TextForm(props) {
                     <tr>
                         <td style={{border: "2px solid", padding:"20px", textAlign:"center"}}>{text.split(/\s+/).filter((element)=>{return element.length!==0}).length}</td>
                         <td style={{border: "2px solid", padding:"20px", textAlign:"center"}}>{text.length}</td>
-                        <td style={{border: "2px solid", padding:"20px", textAlign:"center"}}>{0.008 * text.split(/[ ]+/).filter((element)=>{return element.length!==0}).length}</td>
+                        <td style={{border: "2px solid", padding:"20px", textAlign:"center"}}>{0.008 * text.split(/\s+/).filter((element)=>{return element.length!==0}).length}</td>
                     </tr>
                 </table>
                 <h3 className="mt-4">Preview</h3>
