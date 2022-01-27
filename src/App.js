@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Alert from "./components/Alert";
 import Navbar from "./components/Navbar";
 import TextForm from "./components/TextForm";
